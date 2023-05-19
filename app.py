@@ -26,7 +26,7 @@ def main():
         return prediction
 
     model = load_model()
-    class_names = ["Sunrise", "Cloudy"]
+    class_names = ["Cloudy", "Sunrise"]
     
 
     file = st.file_uploader("Choose a unrise or Cloudy picture from your computer", type=["jpg", "png", "jpeg"])
